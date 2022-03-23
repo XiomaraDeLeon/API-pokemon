@@ -1,0 +1,24 @@
+body{
+    background: url(./nn.jpg); 
+    background-size: 100%;
+}
+
+.div-input{
+    width: 70%; 
+    margin: 15px;
+}
+
+.disenio-input{
+    background: transparent; 
+    box-shadow: 2px 2px 5px yellow;
+}
+
+.orientacion-input{
+    justify-content: center;
+}
+
+.clase-cards{
+    justify-content: center;
+    gap: 50px; 
+    padding-top: 50px
+}
