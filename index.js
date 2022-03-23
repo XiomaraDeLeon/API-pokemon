@@ -25,6 +25,7 @@ async function buscarPK(){
             console.log(valorInput)
             cartas.innerHTML = 
             `
+            <div class="col-md-3">
                 <div style="max-width: 350px; background: transparent; width: 18rem; border-radius: 20px; box-shadow: 2px 2px 5px yellow;"" class="card col-4 text-white">
                     <img style="max-width: 150px;" src="${poke.sprites.other.home.front_default}" class="card-img-top" alt="imagenes de pokemons">
                     <div class="card-body">
@@ -33,6 +34,7 @@ async function buscarPK(){
                     <h6 class="card-text">Habilidades: ${array.toString().split(",").join(", ")}</h6>
                     </div>
                 </div>
+            </div>
             `
         }
         catch(error){
