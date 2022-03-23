@@ -11,6 +11,7 @@ body{
 .disenio-input{
     background: transparent; 
     box-shadow: 2px 2px 5px yellow;
+    color: white;
 }
 
 .orientacion-input{
