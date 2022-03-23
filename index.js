@@ -25,8 +25,8 @@ async function buscarPK(){
             
             cartas.innerHTML = 
             `
-            <div class="col-md-3 col-sm-12">
-                <div style="max-width: 350px; background: transparent; width: 18rem; border-radius: 20px; box-shadow: 2px 2px 5px yellow;"" class="card col-4 text-white">
+            <div class="col-md-12 col-sm-12 d-flex col-12 justify-content-center">
+                <div style="max-width: 350px; min-width: 350px; background: transparent; width: 18rem; border-radius: 20px; box-shadow: 2px 2px 5px yellow;"" class="card col-4 text-white">
                     <img style="max-width: 150px;" src="${poke.sprites.other.home.front_default}" class="card-img-top" alt="imagenes de pokemons">
                     <div class="card-body">
                     <h5 class="card-title">Detalles del pokemon</h5>
