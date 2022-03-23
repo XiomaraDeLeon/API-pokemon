@@ -22,7 +22,7 @@ async function buscarPK(){
             poke.abilities.forEach((pk) => {
                 array.push(pk.ability.name)
             })
-            console.log(valorInput)
+            
             cartas.innerHTML = 
             `
             <div class="col-md-3 col-sm-12">
